@@ -1,0 +1,20 @@
+@mixin flex-row-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-colum-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.TextEmp{
+    @include flex-row-center;
+}
+footer{
+    @include flex-row-center;
+}

@@ -1,0 +1,27 @@
+.headerNav{
+    background-color: $colorPrincipal;
+    nav{
+        padding: 10px;
+        ul{
+            display: flex;
+            li{
+                list-style-type: none; 
+                padding: 20px;
+                a{
+                    text-decoration: none;
+                    font-size: 15px;
+                    color: $colorSecundario;
+                }
+            }
+        }
+    }
+}
+.headerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+header{
+    background-image: linear-gradient(to top, dodgerblue, black);
+}

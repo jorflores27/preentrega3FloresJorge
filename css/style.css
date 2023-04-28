@@ -1,0 +1,164 @@
+.TituPrin {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  padding: 15px;
+}
+
+h6 {
+  margin: 15px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.FooTi {
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  ul, .logo, .FooTi, .FooDatos, a, .textPrecio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.TituPrin {
+  transition: all 5s;
+}
+.TituPrin:hover {
+  transform: translateY(20px);
+  cursor: pointer;
+}
+
+.headerNav {
+  background-color: dodgerblue;
+}
+.headerNav nav {
+  padding: 10px;
+}
+.headerNav nav ul {
+  display: flex;
+}
+.headerNav nav ul li {
+  list-style-type: none;
+  padding: 20px;
+}
+.headerNav nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-image: linear-gradient(to top, dodgerblue, black);
+}
+
+.card-title {
+  color: dodgerblue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-text {
+  color: black;
+}
+
+.ContDest {
+  padding: 50px;
+}
+
+.TextEmp {
+  text-align: center;
+  padding: 40px;
+}
+
+.TitSec {
+  text-align: center;
+  color: yellow;
+  padding: 10px;
+}
+
+h6 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color: yellow;
+}
+
+.Resp {
+  text-align: center;
+  color: black;
+}
+
+.textPrecio {
+  color: blue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 5px;
+  color: black;
+}
+
+main {
+  background-color: dodgerblue;
+}
+
+.TextEmp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterOrg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooTi .FooDatos {
+  color: white;
+}
+
+footer {
+  background-image: linear-gradient(to top, dodgerblue, black);
+}
+
+.FooTi {
+  transition: all 2s;
+}
+.FooTi:hover {
+  transform: translate(10px);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
